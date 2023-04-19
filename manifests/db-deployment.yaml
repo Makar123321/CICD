@@ -27,7 +27,7 @@ spec:
       containers:
         - env:
             - name: MYSQL_DATABASE
-              value: db_mysql
+              value: db_milk
             - name: MYSQL_ROOT_PASSWORD
               value: "1"
           image: chebupel/mysql
